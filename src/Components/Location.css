@@ -1,0 +1,22 @@
+td.mine-field-location {
+	width: 55px;
+	height: 55px;
+	border: 1px black solid;
+	transition: background-color 200ms;
+}
+
+td.mine-field-location.covered {
+	background-color: #2196F3;	
+}
+
+td.mine-field-location.flagged {
+	background-color: #FFEB3B;	
+}
+
+td.mine-field-location.nearby {
+	background-color: #00E676;
+}
+
+td.mine-field-location.mine {
+	background-color: #B71C1C;
+}

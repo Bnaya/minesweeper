@@ -1,5 +1,5 @@
 import Location from './Location';
-import { arrayShuffle, indexToXY, findNeighbours, logBoard } from '../util';
+import { arrayShuffle, indexToXY, findNeighbours } from '../util';
 
 export default class Board {
 

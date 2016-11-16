@@ -106,7 +106,7 @@ export default class Board {
 
 			visited.push(n);
 
-			if (this.locations[n.x][n.y].mine) {
+			if (this.locations[n.x][n.y].mine || this.locations[n.x][n.y].flagged) {
 				continue;
 			}
 

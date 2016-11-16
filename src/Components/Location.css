@@ -3,6 +3,7 @@ td.mine-field-location {
 	height: 55px;
 	border: 1px black solid;
 	transition: background-color 200ms;
+	user-select: none;
 }
 
 td.mine-field-location.covered {

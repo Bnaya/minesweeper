@@ -73,6 +73,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <span>Shift click to toggle flag at location</span>
         <form>
           Mines number: <input type="number" value={this.state.mines} onChange={this.onChangeMines.bind(this)} /> |
           width: <input type="number" value={this.state.width} onChange={this.onChangeWidth.bind(this)} /> |

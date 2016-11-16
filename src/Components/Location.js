@@ -16,13 +16,13 @@ export default function Location ({model, onRevealRequest, onFlagRequest}, conte
 	let className = 'covered';
 
 	if (model.flagged) {
-		content = 'F';
+		content = 'Flag';
 		className = 'flagged';
 	}
 
 	if (model.revealed || context.cheat) {
 		if (model.mine) {
-			content = '!!M!!';
+			content = 'Mine';
 			className = 'mine';
 		} else {
 			content = model.nearby;
